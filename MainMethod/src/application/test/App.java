@@ -1,11 +1,11 @@
-package application.test; // F2 -> application Æú´õ ¾È¿¡ test¶ó´Â »õ·Î¿î Æú´õ »ý¼º aaa.bbb -> aaaÆú´õ ¾È¿¡ bbb¶ó´Â Æú´õ »ý¼º
+package application.test; // F2 -> application í´ë” ì•ˆì— testë¼ëŠ” ìƒˆë¡œìš´ í´ë” ìƒì„± aaa.bbb -> aaaí´ë” ì•ˆì— bbbë¼ëŠ” í´ë” ìƒì„±
 
 public class App {
 
-	public static void main(String[] args) { // ¸ÞÀÎ ¸Þ¼Òµå
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("»õ ÀÚ¹Ù ÇÁ·Î±×·¥À»");
-		System.out.println("½ÇÇàÇÕ´Ï´Ù.");	// ÀÚµ¿ ÁÙ ¸ÂÃã : ¿À¸¥ÂÊ¸¶¿ì½º -> source -> Format(ctrl+shift+F)
+	public static void main(String[] args) { // ë©”ì¸ ë©”ì†Œë“œ
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ìƒˆ ìžë°” í”„ë¡œê·¸ëž¨ì„");
+		System.out.println("ì‹¤í–‰í•©ë‹ˆë‹¤.");	// ìžë™ ì¤„ ë§žì¶¤ : ì˜¤ë¥¸ìª½ë§ˆìš°ìŠ¤ -> source -> Format(ctrl+shift+F)
 	}
 
 }
