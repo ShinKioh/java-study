@@ -3,7 +3,7 @@ package application;
 import java.util.Random;
 
 public class RandomWord {
-	// 스베이스바로 뛰어진 단어들을 문자열로 str에 저장
+	// 스베이스바로 띄어진 단어들을 문자열로 str에 저장
 	private String str = "recognition inspection category conversation teaching operation initiative professor proposal perspective management complaint department politics significance collection apartment childhood negotiation birthday knowledge instruction argument activity strategy resource depression assumption baseball inflation conclusion language psychology restaurant analysis historian community possibility difference communication statement criticism grandmother assistant sympathy audience literature weakness decision presentation";
 	private String[] words = str.split(" "); // 문자열을 스페이스로 잘라서 배열에 입력
 
