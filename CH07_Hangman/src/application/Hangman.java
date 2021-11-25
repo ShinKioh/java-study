@@ -23,7 +23,6 @@ public class Hangman {
 		System.out.println(word.toString());
 	}
 	
-
 	private void getUserInput() {
 //		유저에게 한 문자 입력 요구
 //		입력받은 문자열에서 한 문자를 뽑아서
@@ -36,7 +35,20 @@ public class Hangman {
 	}
 
 	private void checkUserInput() {
-		System.out.println("맞는지 체크");
+//		유저가 단어를 다 맞췄는지 체크해서 게임을 종료
+//		게임 종료 확인을 하는 메소드 isCompleted 를 RandomWord 클래스에 만들기
+		if(word.isCompleted()) {
+			System.out.println("잘 맞췄어요!");
+			System.out.println("정답은 : " + word);
+			running = false; // 반복문 빠져나옴 => 종료
+		}
+	}
+	/**
+	 * 스캐너를 닫는 메소드
+	 */
+	public void close() {
+		// 게임 종료, 스캐너 닫기
+		scanner.close();
 	}
 
 }

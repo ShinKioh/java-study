@@ -10,6 +10,7 @@ public class RandomWord {
 	private String selectWord; // 랜덤으로 선택된 단어
 	private char[] characters; // 문자 배열 선언(철자를 맞추면 저장)
 	private Random random = new Random();
+	
 
 	public RandomWord() {
 		// 생성자에 랜덤 단어를 선택
@@ -43,5 +44,14 @@ public class RandomWord {
 				characters[i] = c;
 			}
 		}
+	}
+	
+	public boolean isCompleted() {
+		// 철자를 다 맞췄는지 체크해서 true or false로 리턴
+		for (char c : characters) {
+			if(c == '\u0000') {
+				return false; // 아직 맞출 문자가 있음
+			}
+		}return true; // 다 맞춤
 	}
 }
