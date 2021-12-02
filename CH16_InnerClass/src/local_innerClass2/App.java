@@ -28,6 +28,10 @@ public class App {
 			}
 		}
 		ScheduledExecutorService service = Executors.newScheduledThreadPool(1);
-		service.scheduleAtFixedRate(new Printer(), 0, 1, TimeUnit.SECONDS);
+		service.scheduleAtFixedRate(new Runnable() {
+			public void run() {
+				System.out.println(name);
+			}
+		}, 0, 1, TimeUnit.SECONDS);
 	}
 }
