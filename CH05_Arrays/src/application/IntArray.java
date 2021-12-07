@@ -17,7 +17,7 @@ public class IntArray {
 		System.out.printf(" 인덱스 번호 %d의 값은 %d 이다 \n",0,numbers[0]);
 		System.out.printf(" 인덱스 번호 %d의 값은 %d 이다 \n",1,numbers[1]);
 		System.out.printf(" 인덱스 번호 %d의 값은 %d 이다 \n",2,numbers[2]);
-		 System.out.printf(" 인덱스 번호 %d의 값은 %d 이다 \n",3,numbers[3]);
+		System.out.printf(" 인덱스 번호 %d의 값은 %d 이다 \n",3,numbers[3]);
 
 	}
 

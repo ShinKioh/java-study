@@ -14,7 +14,7 @@ public class Switch2 {
 		scanner.close();
 		
 		switch(input) {
-		case "y": // 옵션변수가 케이스 0과 같을 때
+		case "y": // 옵션변수가 케이스 y과 같을 때
 			System.out.println("진행합니다");
 			break; // 항상 케이스하나 끝에 break작성
 		case "n":
